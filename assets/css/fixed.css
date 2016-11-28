@@ -221,3 +221,51 @@ input[type=submit] {
 		width:50px;
 	}
 }
+
+
+@media only screen and (max-width:980px) {
+	.main-section {
+		width:450px;
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	
+	.main-section {
+		max-width: none;
+		width:100%;
+	}
+	.sidebar {
+		clear:right;
+		max-width: none;
+		width:100%;
+	}
+
+}
+
+@media only screen and (max-width:640px) {
+	
+	#mastead {
+		position:static;
+	}
+	
+	header {
+		margin-bottom: 30px;
+	}
+
+	#logo {
+		width:100%;
+	}
+
+	nav {
+		float:left;
+		text-align: center;
+		width:100%;
+		padding-bottom: 20px;
+	}
+	
+
+
+
+}
