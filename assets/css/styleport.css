@@ -1,0 +1,142 @@
+ body, html {
+ 	padding:0;
+ 	margin:0;
+ }
+
+ .header {
+ 	width:100%;
+ 	background-color: white;
+ 	float:left;
+ 	display:inline;
+ 	height:100%;
+ 	border-bottom: 3px solid #d3d3d3;
+
+ }
+
+#fix {
+	position:fixed;
+	width:1280px;
+}	
+
+ .header h2 {
+ 	position:relative;
+ 	margin:0;
+ 	padding: 29px;
+ 	float:left;
+ 	color: white;
+ 	background-color: #4DABA5;	
+ 	width:220px;
+ 	height:100%;
+ 	left:103px;
+ }
+
+ .header ul {
+ 	margin: 0 auto;
+ 	padding: 27px 370px 25px 500px;
+ 	width:120px;
+ 	height:100%;
+ 	float:right;
+ 	display:inline-flex;
+ 	flex-wrap: nowrap;		
+	font-size:1.1em;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#d3d3d3;
+ }
+
+ .header li {
+ 	padding: 10px 18px 8px 20px;
+ 	border-right: 1px solid black;
+ 	line-height: 5px;
+
+ }
+
+ br {
+ 	clear:both;
+ }
+
+ .content-wrap {
+ 	position:fixed;
+ 	margin:0;
+ 	padding:0;
+ 	height:100%;
+ 	background-color:#EFEFEF;
+	width:100%;
+
+ }
+
+ .content {
+ 	padding:25px;
+ 	margin:40px 104px 20px 103px;
+ 	background-color:white;
+ 	height:420px;
+ 	width:600px;
+ }
+
+
+ .about-me h2 {
+ 	margin:0;
+ 	padding:6px 5px 22px 0;
+ 	font-size:2.1em;
+ 	color:#4DABA5;
+ }
+
+.about-me {
+	width:100%;
+}
+ .about-me img {
+ 	float:left;
+ 	margin-right:20px;
+ }
+
+ .contacto {
+ 	position:relative;
+ 	float:right;
+ 	background-color:white;
+ 	margin:20px;
+ 	bottom: 77%;
+ 	left:72%;
+ 	padding:0px 25px 25px 25px;
+ 	text-align:center;
+ }
+
+ .contacto h2 {
+	color:#4DABA5;
+ }
+
+.contacto img {
+	margin: 0 3px 0 3px;
+	
+}
+
+
+#footer {
+	
+	position: absolute;
+	clear:both;
+	background-color: #666666;
+	border-top: 2px solid #4DABA5;
+	text-align: center;	
+ 	right: 0;
+ 	bottom: 0;
+  	left: 0;
+	
+}
+
+.input {
+     width: 100%;
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+textarea {
+     width: 100%;
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+
+
+
